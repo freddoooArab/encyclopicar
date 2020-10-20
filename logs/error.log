@@ -1,0 +1,1186 @@
+2020-10-18 11:20:17 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /users/login?redirect=%2Fcars%2Fadd
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:21:08 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /users/login?redirect=%2Fcars%2Fadd
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:21:09 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /users/login?redirect=%2Fcars%2Fadd
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:21:52 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:21:53 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /users/login?redirect=%2Fcars%2Fadd
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:21:56 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:22:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /login
+
+
+2020-10-18 11:22:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /login
+
+
+2020-10-18 11:22:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /login
+
+
+2020-10-18 11:22:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found. (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /login
+
+
+2020-10-18 11:22:39 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:24:16 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:24:16 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('97f3847e-1a2f-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/97f3847e-1a2f-4f50-9760-b960bad28aec
+Referer URL: http://localhost/encyclopicar/
+
+
+2020-10-18 11:24:17 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:24:25 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:24:31 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-18 11:24:32 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('97f3847e-1a2f-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/97f3847e-1a2f-4f50-9760-b960bad28aec
+Referer URL: http://localhost/encyclopicar/
+
+
+2020-10-18 11:24:33 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "requests" (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php:487)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1632): Cake\ORM\Query->firstOrFail()
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Controller\RequestsController.php(58): Cake\ORM\Table->get(Array, Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): DebugKit\Controller\RequestsController->view('3d8ea72d-1180-4...')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(DebugKit\Controller\RequestsController))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#18 {main}
+Request URL: /debug-kit/toolbar/3d8ea72d-1180-42e7-8835-4f78cb52e0b4
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-20 00:51:49 Error: [Error] Call to undefined method Cake\Validation\Validator::String() (C:\Ampps\www\encyclopicar\src\Model\Table\CarsTable.php:68)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php(177): App\Model\Table\CarsTable->validationDefault(Object(Cake\Validation\Validator))
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Validation\ValidatorAwareTrait.php(150): Cake\ORM\Table->createValidator('default')
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Marshaller.php(255): Cake\ORM\Table->getValidator()
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Marshaller.php(579): Cake\ORM\Marshaller->_validate(Array, Array, true)
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(2859): Cake\ORM\Marshaller->merge(Object(App\Model\Entity\Car), Array, Array)
+#5 C:\Ampps\www\encyclopicar\src\Controller\CarsController.php(72): Cake\ORM\Table->patchEntity(Object(App\Model\Entity\Car), Array)
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\CarsController->add()
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CarsController))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#26 {main}
+Request URL: /cars/add
+Referer URL: http://localhost/encyclopicar/cars/add
+
+
+2020-10-20 00:53:38 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encyclopicar.roles' doesn't exist (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:132)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(98): Cake\Database\Schema\Collection->_reflect('Column', 'roles', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(61): Cake\Database\Schema\Collection->describe('roles', Array)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(566): Cake\Database\Schema\CachedCollection->describe('roles')
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(267): Cake\ORM\Table->getSchema()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(522): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\RolesTable))
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(475): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\UsersTable), Object(Cake\Database\TypeMap), Array)
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(836): Cake\ORM\Query->contain(Array)
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(2554): Cake\ORM\Query->applyOptions(Array)
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1371): Cake\ORM\Table->callFinder('all', Object(Cake\ORM\Query), Array)
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\Paginator.php(201): Cake\ORM\Table->find('all', Array)
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\Paginator.php(170): Cake\Datasource\Paginator->getQuery(Object(App\Model\Table\UsersTable), NULL, Array)
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(198): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\UsersTable), Array, Array)
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(886): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#13 C:\Ampps\www\encyclopicar\src\Controller\UsersController.php(48): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->index()
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#34 {main}
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'encyclopicar.roles' doesn't exist (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(358): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(361): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(310): Cake\Database\Connection->query('SHOW FULL COLUM...')
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(314): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(130): Cake\Database\Connection->execute('SHOW FULL COLUM...', Array)
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(98): Cake\Database\Schema\Collection->_reflect('Column', 'roles', Array, Object(Cake\Database\Schema\TableSchema))
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(61): Cake\Database\Schema\Collection->describe('roles', Array)
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(566): Cake\Database\Schema\CachedCollection->describe('roles')
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(267): Cake\ORM\Table->getSchema()
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(522): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\RolesTable))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(475): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\UsersTable), Object(Cake\Database\TypeMap), Array)
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(836): Cake\ORM\Query->contain(Array)
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(2554): Cake\ORM\Query->applyOptions(Array)
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1371): Cake\ORM\Table->callFinder('all', Object(Cake\ORM\Query), Array)
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\Paginator.php(201): Cake\ORM\Table->find('all', Array)
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\Paginator.php(170): Cake\Datasource\Paginator->getQuery(Object(App\Model\Table\UsersTable), NULL, Array)
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\PaginatorComponent.php(198): Cake\Datasource\Paginator->paginate(Object(App\Model\Table\UsersTable), Array, Array)
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(886): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\UsersTable), Array)
+#23 C:\Ampps\www\encyclopicar\src\Controller\UsersController.php(48): Cake\Controller\Controller->paginate(Object(App\Model\Table\UsersTable))
+#24 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->index()
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#35 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#36 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#37 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#38 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#39 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#40 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#41 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#42 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#43 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#44 {main}
+Request URL: /users
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-20 01:04:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cars.slug' in 'where clause' (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1155): Cake\Database\Query->execute()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(310): Cake\ORM\Query->_execute()
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1099): Cake\ORM\Query->_all()
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(472): Cake\ORM\Query->all()
+#11 C:\Ampps\www\encyclopicar\src\Controller\CarsController.php(30): Cake\ORM\Query->first()
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(92): App\Controller\CarsController->isAuthorized(Array)
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(542): Cake\Auth\ControllerAuthorize->authorize(Array, Object(Cake\Http\ServerRequest))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(328): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(277): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(677): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CarsController))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#34 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#35 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#36 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#37 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#38 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#39 {main}
+Request URL: /cars/delete/2
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-20 01:04:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cars.slug' in 'where clause' (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1155): Cake\Database\Query->execute()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(310): Cake\ORM\Query->_execute()
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1099): Cake\ORM\Query->_all()
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(472): Cake\ORM\Query->all()
+#11 C:\Ampps\www\encyclopicar\src\Controller\CarsController.php(30): Cake\ORM\Query->first()
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(92): App\Controller\CarsController->isAuthorized(Array)
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(542): Cake\Auth\ControllerAuthorize->authorize(Array, Object(Cake\Http\ServerRequest))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(328): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(277): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(677): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CarsController))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#34 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#35 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#36 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#37 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#38 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#39 {main}
+Request URL: /cars/edit/2
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-20 01:32:55 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars
+Referer URL: http://localhost/encyclopicar/users?sort=username&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\index.ctp, line 37
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:32:55 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars
+Referer URL: http://localhost/encyclopicar/users?sort=username&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\index.ctp, line 38
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:32:55 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars
+Referer URL: http://localhost/encyclopicar/users?sort=username&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\index.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:34:01 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars
+Referer URL: http://localhost/encyclopicar/users?sort=username&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\index.ctp, line 38
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:34:01 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars
+Referer URL: http://localhost/encyclopicar/users?sort=username&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\index.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:34:32 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars
+Referer URL: http://localhost/encyclopicar/users?sort=username&direction=asc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\index.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:44:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.username' in 'where clause' (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1155): Cake\Database\Query->execute()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(310): Cake\ORM\Query->_execute()
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1099): Cake\ORM\Query->_all()
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(327): Cake\ORM\Query->all()
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1828): Cake\ORM\Query->toArray()
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Rule\IsUnique.php(81): Cake\ORM\Table->exists(Array)
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RuleInvoker.php(115): Cake\ORM\Rule\IsUnique->__invoke(Object(App\Model\Entity\User), Array)
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(298): Cake\Datasource\RuleInvoker->__invoke(Object(App\Model\Entity\User), Array)
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(255): Cake\Datasource\RulesChecker->_checkRules(Object(App\Model\Entity\User), Array, Array)
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(231): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(2002): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#24 C:\Ampps\www\encyclopicar\src\Controller\UsersController.php(77): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->add()
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#33 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#35 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#36 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#37 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#38 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#39 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#40 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#41 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#42 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#43 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#44 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#45 {main}
+Request URL: /users/add
+Referer URL: http://localhost/encyclopicar/users/add
+
+
+2020-10-20 01:45:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.username' in 'where clause' (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1155): Cake\Database\Query->execute()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(310): Cake\ORM\Query->_execute()
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1099): Cake\ORM\Query->_all()
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(327): Cake\ORM\Query->all()
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1828): Cake\ORM\Query->toArray()
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Rule\IsUnique.php(81): Cake\ORM\Table->exists(Array)
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RuleInvoker.php(115): Cake\ORM\Rule\IsUnique->__invoke(Object(App\Model\Entity\User), Array)
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(298): Cake\Datasource\RuleInvoker->__invoke(Object(App\Model\Entity\User), Array)
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(255): Cake\Datasource\RulesChecker->_checkRules(Object(App\Model\Entity\User), Array, Array)
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesChecker.php(231): Cake\Datasource\RulesChecker->checkCreate(Object(App\Model\Entity\User), Array)
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\RulesAwareTrait.php(65): Cake\Datasource\RulesChecker->check(Object(App\Model\Entity\User), 'create', Array)
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(2002): Cake\ORM\Table->checkRules(Object(App\Model\Entity\User), 'create', Object(ArrayObject))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#24 C:\Ampps\www\encyclopicar\src\Controller\UsersController.php(77): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->add()
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#33 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#35 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#36 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#37 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#38 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#39 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#40 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#41 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#42 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#43 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#44 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#45 {main}
+Request URL: /users/add
+Referer URL: http://localhost/encyclopicar/users/add
+
+
+2020-10-20 01:46:22 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(2136): Cake\Database\Query->execute()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(2028): Cake\ORM\Table->_insert(Object(App\Model\Entity\User), Array)
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1941): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1646): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(746): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1647): Cake\Database\Connection->transactional(Object(Closure))
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Table.php(1942): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 C:\Ampps\www\encyclopicar\src\Controller\UsersController.php(77): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->add()
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#34 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#35 {main}
+Request URL: /users/add
+Referer URL: http://localhost/encyclopicar/users/add
+
+
+2020-10-20 01:50:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Cars.slug' in 'where clause' (C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:37)
+#0 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(37): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(173): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(342): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#5 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Connection.php(345): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Database\Query.php(218): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1155): Cake\Database\Query->execute()
+#8 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(310): Cake\ORM\Query->_execute()
+#9 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\ORM\Query.php(1099): Cake\ORM\Query->_all()
+#10 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(472): Cake\ORM\Query->all()
+#11 C:\Ampps\www\encyclopicar\src\Controller\CarsController.php(30): Cake\ORM\Query->first()
+#12 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Auth\ControllerAuthorize.php(92): App\Controller\CarsController->isAuthorized(Array)
+#13 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(542): Cake\Auth\ControllerAuthorize->authorize(Array, Object(Cake\Http\ServerRequest))
+#14 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(328): Cake\Controller\Component\AuthComponent->isAuthorized(Array)
+#15 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(277): Cake\Controller\Component\AuthComponent->authCheck(Object(Cake\Event\Event))
+#16 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Controller\Component\AuthComponent->startup(Object(Cake\Event\Event))
+#17 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#18 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#19 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Controller\Controller.php(677): Cake\Controller\Controller->dispatchEvent('Controller.star...')
+#20 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#21 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\CarsController))
+#22 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(126): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#27 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#29 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#30 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#31 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#32 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#33 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#34 C:\Ampps\www\encyclopicar\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#35 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#36 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#37 C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#38 C:\Ampps\www\encyclopicar\webroot\index.php(40): Cake\Http\Server->run()
+#39 {main}
+Request URL: /cars/edit/2
+Referer URL: http://localhost/encyclopicar/cars
+
+
+2020-10-20 01:53:59 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars/view/2
+Referer URL: http://localhost/encyclopicar/cars
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\view.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:54:31 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars/view/2
+Referer URL: http://localhost/encyclopicar/cars
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\view.ctp, line 35
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2020-10-20 01:54:31 Warning: Warning (2): call_user_func_array() expects parameter 1 to be a valid callback, class 'Cake\Utility\Text' does not have a method 'format' in [C:\Ampps\www\encyclopicar\vendor\cakephp\cakephp\src\View\Helper\TextHelper.php, line 99]
+Request URL: /cars/view/2
+Referer URL: http://localhost/encyclopicar/cars
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\View\Helper\TextHelper::__call() - CORE\src\View\Helper\TextHelper.php, line 99
+include - APP/Template\Cars\view.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1435
+Cake\View\View::_render() - CORE\src\View\View.php, line 1393
+Cake\View\View::render() - CORE\src\View\View.php, line 892
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 791
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Middleware\CsrfProtectionMiddleware::__invoke() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 126
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 170
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 96
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
