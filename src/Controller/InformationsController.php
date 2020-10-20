@@ -23,6 +23,14 @@ class InformationsController extends AppController
 
         $this->set(compact('informations'));
     }
+    
+    public function isAuthorized($user) {
+        $action = $this->request->getParam('action');
+        // The add and tags actions are always allowed to logged in users.
+        if (in_array($action, ['add', 'tags', 'edit', 'delete'])) {
+            return true;
+        }
+    }
 
     /**
      * View method
@@ -47,19 +55,26 @@ class InformationsController extends AppController
      */
     public function add()
     {
+        if($this->request->session()->read('Car.id') == false) {
+            $this->Flash->error(__('Information must be added from a car'));
+            return $this->redirect(['controller' => 'cars', 'action' => 'index']);
+        } else {       
         $information = $this->Informations->newEntity();
         if ($this->request->is('post')) {
             $information = $this->Informations->patchEntity($information, $this->request->getData());
+            $information->car_id = $this->request->session()->read('Car.id');
+            $this->request->session()->delete('Car.id');
             if ($this->Informations->save($information)) {
                 $this->Flash->success(__('The information has been saved.'));
-
-                return $this->redirect(['action' => 'index']);
+                $car_slug = $this->request->session()->read('Car.slug');
+                return $this->redirect(['controller' => 'cars', 'action' => 'view', $car_slug]);
             }
             $this->Flash->error(__('The information could not be saved. Please, try again.'));
         }
         $cars = $this->Informations->Cars->find('list', ['limit' => 200]);
         $this->set(compact('information', 'cars'));
     }
+            }
 
     /**
      * Edit method

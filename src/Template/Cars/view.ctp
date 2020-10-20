@@ -43,6 +43,13 @@
             <td><?= $this->Number->format($car->price) ?></td>
         </tr>
     </table>
+    <p><?= $this->Html->link('Edit', ['action' => 'edit', $car->slug])?></p>
+    <p>
+        <?php
+        $this->request->session()->write('Car.id', $car->id);
+        echo $this->Html->link(__('New Informations'), ['Informations', 'action' => 'add'])
+        ?>
+    </p>
     <div class="row">
         <h4><?= __('Description') ?></h4>
         <?= $this->Text->autoParagraph(h($car->description)); ?>
