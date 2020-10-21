@@ -1,0 +1,522 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-10-21 02:25+0000\n"
+"PO-Revision-Date: 2020-10-20 22:41-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Language: fr_CA\n"
+
+#: Controller/CarsController.php:76 Controller/CarsController.php:105
+msgid "The car has been saved."
+msgstr "La voiture n'a pas pu être sauvegarder."
+
+#: Controller/CarsController.php:80 Controller/CarsController.php:109
+msgid "The car could not be saved. Please, try again."
+msgstr "La voiture n'a pas pu être sauvegarder. Veuillez réessayer."
+
+#: Controller/CarsController.php:127
+msgid "The car has been deleted."
+msgstr ""
+
+#: Controller/CarsController.php:129
+msgid "The car could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/InformationsCarsController.php:57
+#: Controller/InformationsCarsController.php:83
+msgid "The informations car has been saved."
+msgstr ""
+
+#: Controller/InformationsCarsController.php:61
+#: Controller/InformationsCarsController.php:87
+msgid "The informations car could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InformationsCarsController.php:106
+msgid "The informations car has been deleted."
+msgstr ""
+
+#: Controller/InformationsCarsController.php:108
+msgid "The informations car could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/InformationsController.php:59
+msgid "Information must be added from a car"
+msgstr ""
+
+#: Controller/InformationsController.php:68
+#: Controller/InformationsController.php:94
+msgid "The information has been saved."
+msgstr ""
+
+#: Controller/InformationsController.php:72
+#: Controller/InformationsController.php:98
+msgid "The information could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InformationsController.php:116
+msgid "The information has been deleted."
+msgstr ""
+
+#: Controller/InformationsController.php:118
+msgid "The information could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PhotosController.php:57 Controller/PhotosController.php:82
+msgid "The photo has been saved."
+msgstr ""
+
+#: Controller/PhotosController.php:61 Controller/PhotosController.php:86
+msgid "The photo could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PhotosController.php:104
+msgid "The photo has been deleted."
+msgstr ""
+
+#: Controller/PhotosController.php:106
+msgid "The photo could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/RolesController.php:54 Controller/RolesController.php:78
+msgid "The role has been saved."
+msgstr ""
+
+#: Controller/RolesController.php:58 Controller/RolesController.php:82
+msgid "The role could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/RolesController.php:99
+msgid "The role has been deleted."
+msgstr ""
+
+#: Controller/RolesController.php:101
+msgid "The role could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:78 Controller/UsersController.php:102
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:82 Controller/UsersController.php:106
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:123
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:125
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: Template/Cars/add.ctp:9 Template/Cars/edit.ctp:9 Template/Cars/index.ctp:9
+#: Template/Cars/index.ctp:29 Template/Cars/view.ctp:9
+#: Template/Cars/view.ctp:60 Template/Cars/view.ctp:86
+#: Template/Informations/add.ctp:9 Template/Informations/edit.ctp:9
+#: Template/Informations/index.ctp:9 Template/Informations/index.ctp:22
+#: Template/Informations/view.ctp:9 Template/Informations/view.ctp:45
+#: Template/InformationsCars/add.ctp:9 Template/InformationsCars/edit.ctp:9
+#: Template/InformationsCars/index.ctp:9 Template/InformationsCars/index.ctp:25
+#: Template/InformationsCars/view.ctp:9 Template/Photos/add.ctp:9
+#: Template/Photos/edit.ctp:9 Template/Photos/index.ctp:9
+#: Template/Photos/index.ctp:24 Template/Photos/view.ctp:9
+#: Template/Roles/add.ctp:9 Template/Roles/edit.ctp:9
+#: Template/Roles/index.ctp:9 Template/Roles/index.ctp:22
+#: Template/Roles/view.ctp:9 Template/Roles/view.ctp:44
+#: Template/Users/add.ctp:9 Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9 Template/Users/index.ctp:27
+#: Template/Users/view.ctp:9 Template/Users/view.ctp:55
+msgid "Actions"
+msgstr "Commandes"
+
+#: Template/Cars/add.ctp:10 Template/Cars/edit.ctp:16 Template/Cars/view.ctp:12
+#: Template/Informations/add.ctp:11 Template/Informations/edit.ctp:17
+#: Template/Informations/index.ctp:11 Template/Informations/view.ctp:14
+#: Template/InformationsCars/add.ctp:11 Template/InformationsCars/edit.ctp:17
+#: Template/InformationsCars/index.ctp:11 Template/InformationsCars/view.ctp:14
+#: Template/Photos/add.ctp:11 Template/Photos/edit.ctp:17
+#: Template/Photos/index.ctp:11 Template/Photos/view.ctp:14
+#: Template/Users/add.ctp:13 Template/Users/edit.ctp:19
+#: Template/Users/index.ctp:13 Template/Users/view.ctp:16
+msgid "List Cars"
+msgstr "Liste d'autos"
+
+#: Template/Cars/add.ctp:11 Template/Cars/edit.ctp:17
+#: Template/Cars/index.ctp:11 Template/Cars/view.ctp:14
+#: Template/Roles/add.ctp:11 Template/Roles/edit.ctp:17
+#: Template/Roles/index.ctp:11 Template/Roles/view.ctp:14
+#: Template/Users/add.ctp:10 Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "Liste usagers"
+
+#: Template/Cars/add.ctp:12 Template/Cars/edit.ctp:18
+#: Template/Cars/index.ctp:12 Template/Cars/view.ctp:15
+#: Template/Roles/add.ctp:12 Template/Roles/edit.ctp:18
+#: Template/Roles/index.ctp:12 Template/Roles/view.ctp:15
+#: Template/Users/index.ctp:10 Template/Users/view.ctp:13
+msgid "New User"
+msgstr "Nouvel utilisateur"
+
+#: Template/Cars/add.ctp:13 Template/Cars/edit.ctp:19
+#: Template/Cars/index.ctp:13 Template/Cars/view.ctp:16
+#: Template/Photos/add.ctp:10 Template/Photos/edit.ctp:16
+#: Template/Photos/view.ctp:12
+msgid "List Photos"
+msgstr "Liste photos"
+
+#: Template/Cars/add.ctp:14 Template/Cars/edit.ctp:20
+#: Template/Cars/index.ctp:14 Template/Cars/view.ctp:17
+#: Template/Photos/index.ctp:10 Template/Photos/view.ctp:13
+msgid "New Photo"
+msgstr "Nouvelle photo"
+
+#: Template/Cars/add.ctp:15 Template/Cars/edit.ctp:21
+#: Template/Cars/index.ctp:15 Template/Cars/view.ctp:18
+#: Template/Informations/add.ctp:10 Template/Informations/edit.ctp:16
+#: Template/Informations/view.ctp:12 Template/InformationsCars/add.ctp:13
+#: Template/InformationsCars/edit.ctp:19 Template/InformationsCars/index.ctp:13
+#: Template/InformationsCars/view.ctp:16
+msgid "List Informations"
+msgstr "Liste Informations"
+
+#: Template/Cars/add.ctp:16 Template/Cars/edit.ctp:22
+#: Template/Cars/index.ctp:16 Template/Cars/view.ctp:19
+#: Template/Informations/index.ctp:10 Template/Informations/view.ctp:13
+#: Template/InformationsCars/add.ctp:14 Template/InformationsCars/edit.ctp:20
+#: Template/InformationsCars/index.ctp:14 Template/InformationsCars/view.ctp:17
+msgid "New Information"
+msgstr "Nouvelle information"
+
+#: Template/Cars/add.ctp:22
+msgid "Add Car"
+msgstr "Ajouter une voiture"
+
+#: Template/Cars/add.ctp:32 Template/Cars/edit.ctp:38
+#: Template/Informations/add.ctp:25 Template/Informations/edit.ctp:31
+#: Template/InformationsCars/add.ctp:26 Template/InformationsCars/edit.ctp:32
+#: Template/Photos/add.ctp:25 Template/Photos/edit.ctp:31
+#: Template/Roles/add.ctp:24 Template/Roles/edit.ctp:30
+#: Template/Users/add.ctp:28 Template/Users/edit.ctp:34
+msgid "Submit"
+msgstr "Entrer"
+
+#: Template/Cars/edit.ctp:11 Template/Cars/index.ctp:43
+#: Template/Cars/view.ctp:70 Template/Cars/view.ctp:97
+#: Template/Informations/edit.ctp:11 Template/Informations/index.ctp:33
+#: Template/Informations/view.ctp:58 Template/InformationsCars/edit.ctp:11
+#: Template/InformationsCars/index.ctp:37 Template/Photos/edit.ctp:11
+#: Template/Photos/index.ctp:37 Template/Roles/edit.ctp:11
+#: Template/Roles/index.ctp:33 Template/Roles/view.ctp:56
+#: Template/Users/edit.ctp:11 Template/Users/index.ctp:41
+#: Template/Users/view.ctp:68
+msgid "Delete"
+msgstr "Effacer"
+
+#: Template/Cars/edit.ctp:13 Template/Cars/index.ctp:43
+#: Template/Cars/view.ctp:11 Template/Cars/view.ctp:70
+#: Template/Cars/view.ctp:97 Template/Informations/edit.ctp:13
+#: Template/Informations/index.ctp:33 Template/Informations/view.ctp:11
+#: Template/Informations/view.ctp:58 Template/InformationsCars/edit.ctp:13
+#: Template/InformationsCars/index.ctp:37 Template/InformationsCars/view.ctp:11
+#: Template/Photos/edit.ctp:13 Template/Photos/index.ctp:37
+#: Template/Photos/view.ctp:11 Template/Roles/edit.ctp:13
+#: Template/Roles/index.ctp:33 Template/Roles/view.ctp:11
+#: Template/Roles/view.ctp:56 Template/Users/edit.ctp:13
+#: Template/Users/index.ctp:41 Template/Users/view.ctp:11
+#: Template/Users/view.ctp:68
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Cars/edit.ctp:28 Template/Cars/view.ctp:10
+msgid "Edit Car"
+msgstr "Modifier"
+
+#: Template/Cars/index.ctp:10 Template/Cars/view.ctp:13
+#: Template/Informations/add.ctp:12 Template/Informations/edit.ctp:18
+#: Template/Informations/index.ctp:12 Template/Informations/view.ctp:15
+#: Template/InformationsCars/add.ctp:12 Template/InformationsCars/edit.ctp:18
+#: Template/InformationsCars/index.ctp:12 Template/InformationsCars/view.ctp:15
+#: Template/Photos/add.ctp:12 Template/Photos/edit.ctp:18
+#: Template/Photos/index.ctp:12 Template/Photos/view.ctp:15
+#: Template/Users/add.ctp:14 Template/Users/edit.ctp:20
+#: Template/Users/index.ctp:14 Template/Users/view.ctp:17
+msgid "New Car"
+msgstr "Nouvelle Auto"
+
+#: Template/Cars/index.ctp:20
+msgid "Cars"
+msgstr "Autos"
+
+#: Template/Cars/index.ctp:41 Template/Cars/view.ctp:68
+#: Template/Cars/view.ctp:95 Template/Informations/index.ctp:31
+#: Template/Informations/view.ctp:56 Template/InformationsCars/index.ctp:35
+#: Template/Photos/index.ctp:35 Template/Roles/index.ctp:31
+#: Template/Roles/view.ctp:54 Template/Users/index.ctp:39
+#: Template/Users/view.ctp:66
+msgid "View"
+msgstr "Voir"
+
+#: Template/Cars/index.ctp:42 Template/Cars/view.ctp:69
+#: Template/Cars/view.ctp:96 Template/Informations/index.ctp:32
+#: Template/Informations/view.ctp:57 Template/InformationsCars/index.ctp:36
+#: Template/Photos/index.ctp:36 Template/Roles/index.ctp:32
+#: Template/Roles/view.ctp:55 Template/Users/index.ctp:40
+#: Template/Users/view.ctp:67
+msgid "Edit"
+msgstr ""
+
+#: Template/Cars/index.ctp:51 Template/Informations/index.ctp:41
+#: Template/InformationsCars/index.ctp:45 Template/Photos/index.ctp:45
+#: Template/Roles/index.ctp:41 Template/Users/index.ctp:49
+msgid "first"
+msgstr "Modifier"
+
+#: Template/Cars/index.ctp:52 Template/Informations/index.ctp:42
+#: Template/InformationsCars/index.ctp:46 Template/Photos/index.ctp:46
+#: Template/Roles/index.ctp:42 Template/Users/index.ctp:50
+msgid "previous"
+msgstr "précédent"
+
+#: Template/Cars/index.ctp:54 Template/Informations/index.ctp:44
+#: Template/InformationsCars/index.ctp:48 Template/Photos/index.ctp:48
+#: Template/Roles/index.ctp:44 Template/Users/index.ctp:52
+msgid "next"
+msgstr "prochain"
+
+#: Template/Cars/index.ctp:55 Template/Informations/index.ctp:45
+#: Template/InformationsCars/index.ctp:49 Template/Photos/index.ctp:49
+#: Template/Roles/index.ctp:45 Template/Users/index.ctp:53
+msgid "last"
+msgstr "dernier"
+
+#: Template/Cars/index.ctp:57 Template/Informations/index.ctp:47
+#: Template/InformationsCars/index.ctp:51 Template/Photos/index.ctp:51
+#: Template/Roles/index.ctp:47 Template/Users/index.ctp:55
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+
+#: Template/Cars/view.ctp:11
+msgid "Delete Car"
+msgstr "Effacer Auto"
+
+#: Template/Cars/view.ctp:26
+msgid "User"
+msgstr "Utilisateur"
+
+#: Template/Cars/view.ctp:30 Template/Cars/view.ctp:57
+#: Template/Cars/view.ctp:82 Template/Informations/view.ctp:26
+#: Template/Informations/view.ctp:39 Template/InformationsCars/view.ctp:24
+#: Template/Photos/view.ctp:34 Template/Roles/view.ctp:26
+#: Template/Roles/view.ctp:39 Template/Users/view.ctp:40
+#: Template/Users/view.ctp:49
+msgid "Id"
+msgstr ""
+
+#: Template/Cars/view.ctp:34 Template/Informations/view.ctp:41
+#: Template/Users/view.ctp:51
+msgid "Brand"
+msgstr "Marque"
+
+#: Template/Cars/view.ctp:38 Template/Informations/view.ctp:42
+#: Template/Users/view.ctp:52
+msgid "Model"
+msgstr "Modèle"
+
+#: Template/Cars/view.ctp:42 Template/Informations/view.ctp:43
+#: Template/Users/view.ctp:53
+msgid "Price"
+msgstr "Prix"
+
+#: Template/Cars/view.ctp:49 Template/Cars/view.ctp:59
+#: Template/Informations/view.ctp:31 Template/Informations/view.ctp:44
+#: Template/Roles/view.ctp:31 Template/Users/view.ctp:54
+msgid "Description"
+msgstr ""
+
+#: Template/Cars/view.ctp:53
+msgid "Related Informations"
+msgstr "Informations Reliées"
+
+#: Template/Cars/view.ctp:58 Template/Informations/view.ctp:22
+#: Template/Roles/view.ctp:22
+msgid "Name"
+msgstr "Nom"
+
+#: Template/Cars/view.ctp:78
+msgid "Related Photos"
+msgstr "Photos reliées"
+
+#: Template/Cars/view.ctp:83 Template/InformationsCars/view.ctp:28
+msgid "Car Id"
+msgstr ""
+
+#: Template/Cars/view.ctp:84 Template/Photos/view.ctp:26
+msgid "Title"
+msgstr ""
+
+#: Template/Cars/view.ctp:85 Template/Photos/view.ctp:30
+msgid "Filename"
+msgstr ""
+
+#: Template/Informations/add.ctp:18
+msgid "Add Information"
+msgstr ""
+
+#: Template/Informations/edit.ctp:24 Template/Informations/view.ctp:10
+msgid "Edit Information"
+msgstr ""
+
+#: Template/Informations/index.ctp:16
+msgid "Informations"
+msgstr ""
+
+#: Template/Informations/view.ctp:11
+msgid "Delete Information"
+msgstr ""
+
+#: Template/Informations/view.ctp:35 Template/Users/view.ctp:45
+msgid "Related Cars"
+msgstr ""
+
+#: Template/Informations/view.ctp:40 Template/Users/view.ctp:50
+msgid "User Id"
+msgstr ""
+
+#: Template/InformationsCars/add.ctp:10 Template/InformationsCars/edit.ctp:16
+#: Template/InformationsCars/view.ctp:12
+msgid "List Informations Cars"
+msgstr ""
+
+#: Template/InformationsCars/add.ctp:20
+msgid "Add Informations Car"
+msgstr ""
+
+#: Template/InformationsCars/edit.ctp:26 Template/InformationsCars/view.ctp:10
+msgid "Edit Informations Car"
+msgstr ""
+
+#: Template/InformationsCars/index.ctp:10 Template/InformationsCars/view.ctp:13
+msgid "New Informations Car"
+msgstr ""
+
+#: Template/InformationsCars/index.ctp:18
+msgid "Informations Cars"
+msgstr ""
+
+#: Template/InformationsCars/view.ctp:11
+msgid "Delete Informations Car"
+msgstr ""
+
+#: Template/InformationsCars/view.ctp:32
+msgid "Information Id"
+msgstr ""
+
+#: Template/Layout/error.ctp:36
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:44
+msgid "Back"
+msgstr ""
+
+#: Template/Photos/add.ctp:18
+msgid "Add Photo"
+msgstr ""
+
+#: Template/Photos/edit.ctp:24 Template/Photos/view.ctp:10
+msgid "Edit Photo"
+msgstr ""
+
+#: Template/Photos/index.ctp:16
+msgid "Photos"
+msgstr ""
+
+#: Template/Photos/view.ctp:11
+msgid "Delete Photo"
+msgstr ""
+
+#: Template/Photos/view.ctp:22
+msgid "Car"
+msgstr ""
+
+#: Template/Roles/add.ctp:10 Template/Roles/edit.ctp:16
+#: Template/Roles/view.ctp:12 Template/Users/add.ctp:11
+#: Template/Users/edit.ctp:17 Template/Users/index.ctp:11
+#: Template/Users/view.ctp:14
+msgid "List Roles"
+msgstr ""
+
+#: Template/Roles/add.ctp:18
+msgid "Add Role"
+msgstr ""
+
+#: Template/Roles/edit.ctp:24 Template/Roles/view.ctp:10
+msgid "Edit Role"
+msgstr ""
+
+#: Template/Roles/index.ctp:10 Template/Roles/view.ctp:13
+#: Template/Users/add.ctp:12 Template/Users/edit.ctp:18
+#: Template/Users/index.ctp:12 Template/Users/view.ctp:15
+msgid "New Role"
+msgstr ""
+
+#: Template/Roles/index.ctp:16
+msgid "Roles"
+msgstr ""
+
+#: Template/Roles/view.ctp:11
+msgid "Delete Role"
+msgstr ""
+
+#: Template/Roles/view.ctp:35
+msgid "Related Users"
+msgstr ""
+
+#: Template/Roles/view.ctp:40 Template/Users/view.ctp:24
+msgid "Username"
+msgstr ""
+
+#: Template/Roles/view.ctp:41 Template/Users/view.ctp:28
+msgid "Email"
+msgstr ""
+
+#: Template/Roles/view.ctp:42 Template/Users/view.ctp:32
+msgid "Password"
+msgstr ""
+
+#: Template/Roles/view.ctp:43
+msgid "Role Id"
+msgstr ""
+
+#: Template/Users/add.ctp:20
+msgid "Add User"
+msgstr ""
+
+#: Template/Users/edit.ctp:26 Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr ""
+
+#: Template/Users/index.ctp:18
+msgid "Users"
+msgstr ""
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr ""
+
+#: Template/Users/view.ctp:36
+msgid "Role"
+msgstr ""

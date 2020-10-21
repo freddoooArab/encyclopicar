@@ -37,6 +37,8 @@ class CarsTable extends Table
         $this->setTable('cars');
         $this->setDisplayField('id');
         $this->setPrimaryKey('id');
+        
+        $this->addBehavior('Translate', ['fields', ['description']]);
 
         $this->belongsTo('Users', [
             'foreignKey' => 'user_id',

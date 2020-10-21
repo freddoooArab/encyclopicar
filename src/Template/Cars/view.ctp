@@ -20,11 +20,11 @@
     </ul>
 </nav>
 <div class="cars view large-9 medium-8 columns content">
-    <h3><?= h($car->id) ?></h3>
+    <h3><?= $this->Number->format($car->id) ?></h3>
     <table class="vertical-table">
         <tr>
             <th scope="row"><?= __('User') ?></th>
-            <td><?= $car->has('user') ? $this->Html->link($car->user->email, ['controller' => 'Users', 'action' => 'view', $car->user->id]) : '' ?></td>
+            <td><?= $car->has('user') ? $this->Html->link($car->user->email, ['controller' => 'Users', 'action' => 'view', $car->user->email]) : '' ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Id') ?></th>
@@ -43,13 +43,8 @@
             <td><?= $this->Number->format($car->price) ?></td>
         </tr>
     </table>
-    <p><?= $this->Html->link('Edit', ['action' => 'edit', $car->slug])?></p>
-    <p>
-        <?php
-        $this->request->session()->write('Car.id', $car->id);
-        echo $this->Html->link(__('New Informations'), ['Informations', 'action' => 'add'])
-        ?>
-    </p>
+    <p><?= $this->Html->link('Edit', ['action' => 'edit', $car->id])?></p>
+   
     <div class="row">
         <h4><?= __('Description') ?></h4>
         <?= $this->Text->autoParagraph(h($car->description)); ?>
