@@ -31,11 +31,13 @@ class InformationsTable extends Table
     public function initialize(array $config)
     {
         parent::initialize($config);
-
+        
+        $this->addBehavior('Translate', ['fields', ['name', 'description']]);
         $this->setTable('informations');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-
+        
+        $this->addBehavior('Timestamp');
         $this->belongsToMany('Cars', [
             'foreignKey' => 'information_id',
             'targetForeignKey' => 'car_id',
